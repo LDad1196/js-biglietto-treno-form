@@ -24,3 +24,9 @@ select,
 button {
     border: 1px solid crimson;
 }
+
+button {
+    color: crimson;
+    background-color: grey;
+    padding: 5px;
+}

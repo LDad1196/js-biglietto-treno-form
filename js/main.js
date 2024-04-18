@@ -1,8 +1,15 @@
+const perKm = 0.21;
+
+const genera = document.getElementById("GeneraBtn")
 
 
-const km = document.querySelector('#kmUser');
-console.log('SINCRONO', 'kmUser.value', kmUser.value, typeof kmUser.value);
+genera.addEventListener ('click',
 
-const costPerKm = 0.21;
+function() {
+    console.log ('Hai cliccato il pulsante')
+    const km = document.getElementById ("kmUser")
+    const age = document.getElementById("ageUser")
+    const name = document.getElementById("nameUser")
+}
 
-const BasePrice = km * costPerKm;
+);
