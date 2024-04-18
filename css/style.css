@@ -1,0 +1,26 @@
+body {
+    background-color: crimson;
+}
+
+h1 {
+    color: white;
+}
+
+.my-container {
+    background-color: white;
+    padding: 1.5rem;
+}
+
+label {
+    color: crimson;
+}
+
+.form {
+    display: inline-block;
+}
+
+input,
+select,
+button {
+    border: 1px solid crimson;
+}

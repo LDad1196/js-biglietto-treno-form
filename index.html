@@ -8,8 +8,42 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <h1 class="my-4 text-center">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
+    <section class="container m-auto my-container text-center">
+        <div class="d-flex flex-row justify-content-center"></div>
+        
+            <div class="">
+                <label for="name">
+                    Nome Cognome
+                </label>
+            </div>
+            <input id="nameUser" name="id" type="text" placeholder="Inserisci nome e cognome">
+
+            <div class="">
+                <label for="km">
+                    Numero di Kilometri
+                </label>
+            </div>
+            <input id="kmUser" name="km" type="text" placeholder="Inserisci i km da percorrere">
+
+            <div class="">
+                <label for="age">
+                    Fascia di età
+                </label>
+            </div>
+            <select name="ageUser" id="age">
+                <option selected>Minorenne</option>
+                <option selected>Maggiorenne</option>
+                <option selected>Over 65</option>
+            </select>
+        
+        </div>
+        <div class="mt-4">
+            <button>Genera</button>
+            <button>Genera</button>
+        </div>
+    </section>
 
     <!-- Link JS -->
     <script src="./js/main.js"></script>
